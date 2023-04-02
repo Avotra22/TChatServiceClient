@@ -1,0 +1,7 @@
+{
+  "name": "ServiceClient",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
