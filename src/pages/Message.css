@@ -1,0 +1,41 @@
+.input-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-right: none;
+  }
+  
+  .input-container button {
+    background-color: #0080FF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  .card{
+    padding: 1%;
+    bottom: 0; left: 0; width: 100% ;
+     position: fixed;
+    background-color: #0080FF;
+}
+.receivedMessage{
+    width: 50%;
+    background-color: silver;
+    padding: 1%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.yourMessage{
+    width: 50%;
+    margin-left: 40%;
+    background-color: #0080FF;
+    color: #fff;
+    padding: 1%;
+    margin-top: 5%;
+}
