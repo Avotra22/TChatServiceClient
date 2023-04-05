@@ -1,12 +1,31 @@
-# TChat Project 
+# Projet de Chat avec Ionic React (TChatServiceClient)
 
-It is an application that allows users to contact customer service. It is made by ionic and react.
+Ce projet est une application de chat développée avec Ionic React. Elle permet  au service client de discuter en temps réel avec les utilisateurs.
 
-I used sessionStorage to store the chat and socket.io to transmit messages and notifications in real time.
+## Prérequis
 
-# User Manual:
+Avant de pouvoir exécuter cette application, vous devez vous assurer que votre environnement est configuré avec les éléments suivants :
 
-First of all you have to start the socket server which is placed in the TChatClient/server/ folder after opening the command prompt and executing "node server.cjs"
-Then we can start our 2 ionic projects (Chat for user, ServiceClient for customer service).
-To start them you have to go to the root of the project and open a command prompt and execute the command "ionic serve"
-after that open our project on the default browser.
+* Node.js et NPM (Node Package Manager)
+* Ionic CLI : npm install -g @ionic/cli
+
+## Installation
+
+* Clonez le dépôt Git sur votre machine locale.
+* Ouvrez un terminal dans le dossier du projet `TChatServiceClient/`.
+* Exécutez la commande npm install socket.io-client pour installer les dépendances socket.io.
+* Exécutez la commande npm install @types/socket.io-client pour installer les fichier de declaration des dépendances socket.io-client.
+* Exécutez la commande ionic serve pour lancer l'application en mode développement.
+
+## Fonctionnalités
+
+* Chat en temps réel avec les utilisateur.
+* Creation ticket pour l'utilisateur.
+* Liste les notifications reçus.
+* Liste les discussions en cours.
+* Ajout des utilisateur à la liste des discussions en cours.
+## Technologies utilisées
+
+* Ionic React : Framework pour le développement d'applications mobiles hybrides
+* Socket.io : Permet d'avoir des discussions et des notification en temps réel
+* TypeScript : Langage de programmation orienté objet
