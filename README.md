@@ -13,8 +13,8 @@ Avant de pouvoir exécuter cette application, vous devez vous assurer que votre 
 
 * Clonez le dépôt Git sur votre machine locale.
 * Ouvrez un terminal dans le dossier du projet `TChatServiceClient/`.
-* Exécutez la commande npm install socket.io-client pour installer les dépendances socket.io.
-* Exécutez la commande npm install @types/socket.io-client pour installer les fichier de declaration des dépendances socket.io-client.
+* Exécutez la commande `npm install socket.io-client` pour installer les dépendances socket.io.
+* Exécutez la commande npm install `@types/socket.io-client` pour installer les fichier de declaration des dépendances socket.io-client.
 * Exécutez la commande ionic serve pour lancer l'application en mode développement.
 
 ## Fonctionnalités
